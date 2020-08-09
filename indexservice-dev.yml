@@ -8,11 +8,6 @@ spring:
     sampler:
       probability: 1.0
 
-eureka:
-  client:
-    service-url:
-      defaultZone: http://wzy1:2181/eureka/,http://wzy2:2182/eureka/,http://wzy3:2183/eureka/
-
 #设置商品服务的负载均衡策略
 #PRODUCT-SERVICE:
 #  ribbon:

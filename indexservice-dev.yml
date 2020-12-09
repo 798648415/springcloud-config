@@ -7,10 +7,10 @@ spring:
   sleuth:
     sampler:
       probability: 1.0
-  rabbitmq:
-    host: 192.168.56.103
-    username: guest
-    password: guest
+  #rabbitmq:
+    #host: 192.168.56.103
+    #username: guest
+    #password: guest
 
 #设置商品服务的负载均衡策略
 #PRODUCT-SERVICE:
